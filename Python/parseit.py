@@ -3,7 +3,7 @@
 import argparse
 import re
 
-main():
+def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--regex', '-r', action='store', dest='py_regex', required=True, help='Python regex code')
   parser.add_argument('--file', '-f', action='store', dest='py_file', required=True, help='file to run regex on')
